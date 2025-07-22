@@ -51,5 +51,10 @@ I followed this schematic for the joystick wiring.
 
 I also decided to replace the Raspberry Pi Pico with an Arduino ESP32 Nano, because the Pico didn't have enough analog pins. As it turns out, the Arduino ESP32 Nano has exactly what I need!
 
+Chef's kiss
+<img width="985" height="603" alt="Screenshot 2025-07-22 at 7 53 50 PM" src="https://github.com/user-attachments/assets/399d0718-a59d-4b55-aebf-f7b7dc438fcf" />
+
+**Total time spent: 4h**
+
 
 
