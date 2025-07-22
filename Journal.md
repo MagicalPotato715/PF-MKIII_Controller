@@ -34,7 +34,22 @@ This is the (not so) block diagram:
 
 **Total time spent: 3h**
 
-# July 22th: Begin Schematic / Making Symbols * Footprints
+# July 22th: Begin Schematic & Making Symbols
+
+Learning from my mistakes with the hexapod PCB, I decided to scout out the components (and a seller) before placing them down in Kicad. However, having the block diagram makes it a lot easier to know what to put.
+
+Finished placing down the components! Time to make connections!
+<img width="772" height="513" alt="Screenshot 2025-07-21 at 7 52 32 PM" src="https://github.com/user-attachments/assets/1d32644b-1df9-4a3a-ac49-941c3322e173" />
+
+I decided to replace the KY-023 joysticks with these other ps5 joysticks. These new ones don't have a specific part number, but they atleast have a concrete footprint.
+![COM-09032_sml](https://github.com/user-attachments/assets/845c6913-5e0f-4672-9e26-20f70065a776)
+<img width="544" height="564" alt="Screenshot 2025-07-22 at 3 04 10 PM" src="https://github.com/user-attachments/assets/4636ebe7-a12c-4ca3-af71-855b6d695515" />
+
+I followed this schematic for the joystick wiring.
+<img width="582" height="422" alt="Screenshot 2025-07-22 at 3 44 41 PM" src="https://github.com/user-attachments/assets/ab594c75-0d94-421f-ad4e-5004e9ab22fe" />
+
+
+I also decided to replace the Raspberry Pi Pico with an Arduino ESP32 Nano, because the Pico didn't have enough analog pins. As it turns out, the Arduino ESP32 Nano has exactly what I need!
 
 
 
