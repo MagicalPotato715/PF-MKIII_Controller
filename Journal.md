@@ -56,5 +56,15 @@ Chef's kiss
 
 **Total time spent: 4h**
 
+# July 23rd: Footprint search
+
+I'm having trouble finding the right footprints for the switches I'll be using. For the On/Off switch, the issue seems to be with the pins being "panel mounted". Later, I managed to find a footprint for the 6-pin latch buttons with the help of the Kicad forum: https://www.google.com/search?q=SW_DPDT_XLX&oq=SW_DPDT_XLX&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBNIBBzYwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8.
+
+<img width="690" height="338" alt="2491cde89c9909adfb2831cac1cb1ce7448dc5d9_2_690x338" src="https://github.com/user-attachments/assets/3e988d70-4f9c-4670-8b36-f3e16dbf7dd1" />
+
+I finally found footprints for everything! I decided against using the rocker switch and replaced it with the latching button.
+<img width="780" height="567" alt="Screenshot 2025-07-23 at 10 07 40 PM" src="https://github.com/user-attachments/assets/3126b8f6-3618-47ba-af2c-15a504344046" />
+
+**Total time spent: 2h**
 
 
