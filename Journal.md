@@ -74,9 +74,10 @@ I began making the layout today! I also found out that I could place components 
 This is after layout and before routing.
 <img width="556" height="522" alt="Screenshot 2025-07-25 at 3 03 40 PM" src="https://github.com/user-attachments/assets/6eccf16d-d675-40a2-9cbd-dbae38ebe627" />
 
-UGHHHH why do so many components overlap? 
 <img width="507" height="487" alt="Screenshot 2025-07-25 at 10 54 22 PM" src="https://github.com/user-attachments/assets/c08806cf-c017-4c36-ae4b-3bae13d8456c" />
-I discovered that the solution to a lot of over lap is: lots, and lots, and lots of vias.
+UGHHHH why do so many components overlap?
+I discovered that the solution to a lot of overlap is: lots, and lots, and lots of vias.
+However, I haven't finished routing because it's getting late.
 
 **Total time spent: 3h**
 
