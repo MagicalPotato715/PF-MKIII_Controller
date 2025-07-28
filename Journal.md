@@ -3,6 +3,7 @@ title: "Pathfinder MK-III Handheld Controller"
 author: "Calvin Hung"
 description: "This is the handheld controller for my hexapod robotics project Pathfinder MKIII. Learn more about Pathfinder MK-III here: https://github.com/MagicalPotato715/Pathfinder-MKIII."
 created_at: "7/20/2025"
+total time spent: "16 hours"
 ---
 
 # July 21th: Planning & Research
@@ -81,5 +82,25 @@ However, I haven't finished routing because it's getting late.
 
 **Total time spent: 3h**
 
+# July 26th: DRC & finishing
 
+I spent the first part of today working out the DRC kinks. I had to switch around many different sizings such as vias and traces. After DRC got worked out, I added curves to the edge cuts and tweaked the ground pours.
+
+<img width="702" height="687" alt="Screenshot 2025-07-27 at 10 48 14 AM" src="https://github.com/user-attachments/assets/c0f59e64-a757-4689-bcf6-25e5d8ed0d6f" />
+
+Update: after uploading photos of my layout to ChatGPT, I found out that I realized I placed the nrf chip completely wrong... As it turns out, I need decoupling capacitors and make the traces short.
+
+These bad boys.
+<img width="394" height="226" alt="Screenshot 2025-07-28 at 9 58 04 AM" src="https://github.com/user-attachments/assets/7ad57ca2-6ef4-4def-b96d-08472b2c5bf5" />
+
+Below is the new NRF setup, with two decoupling capacitors, continuous traces, and a pour gap zone where the antenna is.
+<img width="872" height="669" alt="Screenshot 2025-07-28 at 9 59 21 AM" src="https://github.com/user-attachments/assets/126ff73a-e023-4678-8439-8934163b607e" />
+
+Now it's just about finished!
+
+**Total time spent: 4h**
+
+<img width="836" height="579" alt="Screenshot 2025-07-28 at 10 08 41 AM" src="https://github.com/user-attachments/assets/fb194ce6-1737-48a5-a844-f0c0e42c13fa" />
+
+<img width="713" height="676" alt="Screenshot 2025-07-28 at 10 08 59 AM" src="https://github.com/user-attachments/assets/8930ba1d-9da9-4524-accc-8e9f5ec4d9a4" />
 
